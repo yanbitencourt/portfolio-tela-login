@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #201b2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftLogin {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.leftLogin > h1 {
+  color: #77ffc0;
+}
+
+.rightLogin {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
